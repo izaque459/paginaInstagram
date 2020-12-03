@@ -31,5 +31,20 @@ body{
 }
 
 .instagram-phone img{
-	width:50rem;
+	height:50rem;
+}
+
+.instagram-continue{
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	flex-direction:column;
+	width:50%;
+	min-height:34rem;
+}
+.group{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	
 }
