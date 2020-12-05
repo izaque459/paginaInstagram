@@ -29,9 +29,9 @@ body{
 	justify-content:center;
 	width:50%;	
 }
-
+/* 45 rem pois a imagem instagram-celular usada é grande*/
 .instagram-phone img{
-	height:50rem;
+	height:45rem;
 }
 
 .instagram-continue{
@@ -68,8 +68,10 @@ body{
 	border-radius:50%;
 	overflow:hidden;
 }
+/*width 6rem para que imagem instagram-perfil seja quadrada e border-radius aja corretamente*/
 .profile-photo img{
 	height:6rem;
+	width:6rem;
 }
 .instagram-login{
 	background-color:#0095F6;
@@ -113,10 +115,10 @@ body{
 }
 
 .app-download:nth-child(1){
-	background-image:url('img/apple-button-download.png');
+	background-image:url(img/apple-button-download.png);
 }
 .app-download:nth-child(2){
-	background-image:url('img/google-play-button.png');
+	background-image:url(img/google-play-button.png);
 }
 
 @media(max-width:1024px){
