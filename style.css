@@ -109,17 +109,17 @@ body{
 }
 /*achei interessante essa mudança*/
 .app-download img{
-	max-height:100px;
-	max-width:100px;
+	max-height:120px;
+	max-width:120px;
 	height:auto;
 	width:auto;
 }
 /*
 .app-download:nth-child(1){
-	width:4em;
+	background-image:url();
 }
 .app-download:nth-child(2){
-	width:0.5em;
+	background-image:url();
 }*/
 
 @media(max-width:1024px){
