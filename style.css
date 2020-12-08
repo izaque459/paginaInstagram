@@ -109,9 +109,8 @@ body{
 }
 /*achei interessante essa mudança*/
 .app-download img{
-	max-height:120px;
-	max-width:120px;
-	height:auto;
+	max-height:3rem;
+	max-width:10rem;
 	width:auto;
 }
 /*
