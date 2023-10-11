@@ -1,148 +1,166 @@
-*{
-	padding:0;
-	margin:0;
-	box-sizing:border-box;
-	text-decoration:none;
-	font-family:sans-serif;
-	font-size:14px;
-}
-body{
-	width:100%;
-	min-height:100vh;
-	background-color:rgb(243,243,243);
-	margin:0;
-	padding:0;
-	display:flex;
-	justify-content:center;
-}
-.instagram-wrapper{
-	display:flex;
-	align-items:center;
-	justify-content:start;
-	width:60%;
-	height:100vh;
+/* Reset default styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
 }
 
-.instagram-phone{
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	width:50%;	
-}
-/* 45 rem pois a imagem instagram-celular usada é grande*/
-.instagram-phone img{
-	height:45rem;
-}
-
-.instagram-continue{
-	display:flex;
-	align-items:center;
-	justify-content:space-around;
-	flex-direction:column;
-	width:50%;
-	min-height:34rem;
-}
-.group{
-	display:flex;
-	justify-content:space-between;
-	align-items:center;
-	flex-direction:column;
-	background-color:#FFFFFF;
-	width:100%;
-	padding:1.3rem 0;
-	border:1px solid lightgray;
-	
-}
-.group:nth-child(1){
-	min-height:19rem;
-	
+/* Body styles */
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
-.instagram-logo{
-	height:3rem;
-}
-.profile-photo{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	border-radius:50%;
-	overflow:hidden;
-}
-/*width 6rem para que imagem instagram-perfil seja quadrada e border-radius aja corretamente*/
-.profile-photo img{
-	height:8rem;
-	width:8rem;
-}
-.instagram-login{
-	background-color:#0095F6;
-	color:#FFFFFF;
-	padding:8px;
-	border-radius:4px;
+/* Instagram wrapper styles */
+.instagram-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 60%;
+  height: 100vh;
 }
 
-.instagram-logout{
-	color: #0095F6;
-	padding-top:1rem;
-}
-.not-account{
-	color:#rgb(160,160,160);
-}
-
-.link-blue{
-	color:#0095F6;
-}
-.get-the-app{
-	display:flex;
-	flex-direction:column;
-	align-items:center;
-	justify-content:center;
-	width:100%;
-	padding:1.3rem 0;
+/* Instagram phone styles */
+.instagram-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
 
-.download{
-	display:inline-flex;
-	height:100%;
-	justify-content:space-evenly;
-	align-items:center;
-	padding:1rem;
-}
-/*achei interessante essa mudança*/
-.app-download img{
-	max-height:3rem;
-	max-width:10rem;
-	width:auto;
-}
-/*
-.app-download:nth-child(1){
-	background-image:url();
-}
-.app-download:nth-child(2){
-	background-image:url();
-}*/
-
-@media(max-width:1024px){
-	.instagram-wrapper{
-		width:90%;
-	}
+.instagram-phone img {
+  height: 45rem; /* Adjust as needed */
 }
 
-@media(max-width:650px){
-	body{
-		background:#FFFFFF;
-	}
-	
-	.instagram-wrapper{
-		width:90%;
-	}
-	.instagram-phone{
-		display:none;
-	}
-	.instagram-continue{
-		width:100%;
-	}
-	
-	.group{
-		border:1px solid transparent;
-	}
+/* Instagram continue styles */
+.instagram-continue {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 50%;
+  min-height: 34rem; /* Adjust as needed */
 }
+
+/* Group styles */
+.group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  width: 100%;
+  padding: 1.3rem 0;
+  border: 1px solid lightgray;
+}
+
+.group:nth-child(1) {
+  min-height: 19rem; /* Adjust as needed */
+}
+
+/* Instagram logo styles */
+.instagram-logo {
+  height: 3rem;
+}
+
+/* Profile photo styles */
+.profile-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-photo img {
+  height: 8rem;
+  width: 8rem; /* To make the image square */
+}
+
+/* Instagram login styles */
+.instagram-login {
+  background-color: #0095F6;
+  color: #FFFFFF;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* Instagram logout styles */
+.instagram-logout {
+  color: #0095F6;
+  padding-top: 1rem;
+}
+
+/* Not account styles */
+.not-account {
+  color: rgb(160, 160, 160); /* Fix color format */
+}
+
+/* Blue link styles */
+.link-blue {
+  color: #0095F6;
+}
+
+/* Get the app styles */
+.get-the-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem 0;
+}
+
+/* Download button styles */
+.download {
+  display: inline-flex;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* App download image styles */
+.app-download img {
+  max-height: 3rem;
+  max-width: 10rem;
+  width: auto;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    background: #FFFFFF;
+  }
+
+  .instagram-wrapper {
+    width: 90%;
+  }
+
+  .instagram-phone {
+    display: none;
+  }
+
+  .instagram-continue {
+    width: 100%;
+  }
+
+  .group {
+    border: 1px solid transparent;
+  }
+}
+
